@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seccion Registro de Clientes para el envio de articulos a domicilio</title>
+		<a href="index.html"> regresar a Pagina de Inicio </a> <HR>
+</head>
+<body>
+	<h1>REGISTRO DE CLIENTES</h1>
+	  	<p>LLene los datos solicitados para acceder al servicio de envio de productos a domicilio de manera de tener registro de la direccion de envio de productos y el nombre del cliente del pedido. 
+	  	Puede registrarse usted mismo en la pagina o solicitar que lo registren para el envio de productos llamando al telefono 999-999-999</p>
+
+	<!-- etiqueta div , en este caso la utilizamos como contenedor de un formulario, esta etiquetas div nos permitiran añadir estilos y dividirlos a traves de los contenidos de diferentes secciones, de esta manera , cada seccion de nuestro sitio web podra tener su propia caja pequeña creada a partir de una etiqueta div   -->	
+	<div>
+		<!-- se uso el metodo get y no el metodo post para enviar datos desde el formulario hacia el sitio web -->
+	  	<FORM method="get">
+	  		
+	  		<span> Nombre   :</span> <input type="text" name="nombre">
+	  			<br><br>                                                                              
+	  		Apellido : <input type="text" name="Apellido">
+	  			<br><br>
+	  		Correo Electronico : <input type="email" required name="Correo Electronico">
+	  			<br><br>	
+	  		Fecha de Nacimiento : <input type="date" name="Fecha de Nacimiento">
+	  			<br><br>
+	  		Genero : 
+	  			<br>
+	  		 	<input type="radio" name="Genero"> Masculino
+	  			<br><br>		
+	  			<input type="radio" name="Genero"> Femenino
+	  			<br><br>
+	  			<input type="radio" name="Genero"> Otros
+	  			<br><br>
+	  			
+	  		<select name="autos">
+	  			<option value="volvo"> Volvo  </option>
+	  			<option value="audi" > Audi   </option>
+
+	  		</select>
+	  		<br>	<br>
+
+	  		<input type="reset">
+	  		<br> <br>	
+
+	  		<input type="submit" value="Registrar Cliente para envios de productos">
+	  			<br><br>
+	  	</FORM>
+
+	</div>
+</body>
+</html>

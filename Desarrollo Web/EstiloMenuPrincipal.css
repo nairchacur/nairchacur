@@ -1,0 +1,39 @@
+body{background-image : url(comida.jpg);
+	background-size: cover
+	;
+}
+
+
+h1 {color: red;
+	text-align: center;}
+
+h2 {color: red;
+	text-align: left;
+	border: 1px dashed purple;
+}
+
+p {color: GREEN;
+
+}	
+
+}
+#CabeceraWeb {
+	background-color: orange;
+		}
+
+#BarraNavegacion{
+	
+}	
+
+#BarraLateral{
+	
+	margin-right: 100px;
+	margin-top: 20px;
+	float: right;
+	background-color: white;
+
+}	
+
+#PiePagina{
+	background-color: orange;
+}
